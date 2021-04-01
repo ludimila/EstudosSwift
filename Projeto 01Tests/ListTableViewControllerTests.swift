@@ -3,8 +3,8 @@ import XCTest
 @testable import Projeto_01
 
 class ListTableViewControllerTests: XCTestCase {
-        
-    let sut = ViewController()
+    
+    let sut = ListTableViewController()
     
     let arrayMock: [String] = ["nssl0049.jpg", "nssl0046.jpg", "nssl0091.jpg", "nssl0045.jpg", "nssl0051.jpg", "nssl0041.jpg", "nssl0042.jpg", "nssl0043.jpg", "nssl0033.jpg", "nssl0034.jpg"]
 
